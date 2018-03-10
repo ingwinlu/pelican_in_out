@@ -36,7 +36,7 @@ DEFAULT_PAGINATION = False
 
 
 # Settings for in to out mapping paths
-PATH_METADATA = r'(?P<source_path>.*\/).*'
+PATH_METADATA = r'(?P<source_path>.*)\/.*'
 USE_FOLDER_AS_CATEGORY = False
 
 ARTICLE_SAVE_AS='{source_path}/{slug}.html'
